@@ -141,8 +141,8 @@ stages:
       isexec: true
     - path: src/models/evaluate.py
       hash: md5
-      md5: 428d95921f5bf15dc1a207546b4b86bd
-      size: 687
+      md5: 1a9f4ed8d49fe5c256e880859a42634e
+      size: 688
       isexec: true
     outs:
     - path: data/processed/predictions.csv
@@ -150,7 +150,7 @@ stages:
       md5: f2807300a175f5b17aa15e52414a9e25
       size: 6787
       isexec: true
-    - path: metrics/scores.json
+    - path: metrics/metrics.json
       hash: md5
       md5: 85aa1be3bf854a7a2984f086d51b1cbf
       size: 54

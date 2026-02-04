@@ -19,7 +19,7 @@ def main():
         "r2": float(r2_score(y_test, preds))
     }
 
-    with open("metrics/scores.json", "w") as f:
+    with open("metrics/metrics.json", "w") as f:
         json.dump(metrics, f)
 
 if __name__ == "__main__":
